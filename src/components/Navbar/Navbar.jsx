@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { List, Item } from "./Navbar.styled";
 
 const Navbar = () => {
