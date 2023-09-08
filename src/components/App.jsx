@@ -7,7 +7,8 @@ export const App = () => {
     <>
       <Header/>
       <Hero/>
-      <Services/>
+      <Services
+        />
     </>
   );
 }

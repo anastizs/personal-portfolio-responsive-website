@@ -8,7 +8,7 @@ const Navbar = () => {
             <li>About</li>
             <li>Service</li>
         </List>
-        <logo>Anastasiia Gvardiian</logo>
+        <logo><a href='./'></a>Anastasiia Gvardiian</logo>
          <List>
                 <li>Resume</li>
                 <li>Project</li>
