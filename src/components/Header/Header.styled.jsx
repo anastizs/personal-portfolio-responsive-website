@@ -1,12 +1,21 @@
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 
-export const Container = styled.div`
-//   list-style: none;
-//   padding: 0;
-//   margin: 0;
-//   display: flex;
-//   flex-wrap: wrap;
-//   gap: 20px;
-//   justify-content: center;
-  
+export const Section = styled.div`
+  list-style: none;
+  margin-top: 39px;
+  margin-left: 72px;
+  margin-right: 72px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 84px;
+  padding-right: 84px;
+  display: flex;
+  width: 1128px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #0a0a0a;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
 `;

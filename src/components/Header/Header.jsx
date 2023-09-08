@@ -1,18 +1,18 @@
 import PropTypes from "prop-types";
 import Navbar from "../Navbar/Navbar";
-import { Container } from "./Header.styled";
+import { Section } from "./Header.styled";
 
-const Section = () => {
+const Header = () => {
     return (
-        <Container>
+        <Section>
             <Navbar/>
-        </Container>
+        </Section>
     );
 };
 
-Section.propTypes = {
-    children: PropTypes.node.isRequired,
-    title: PropTypes.string.isRequired,
-};
+// Section.propTypes = {
+//     children: PropTypes.node.isRequired,
+//     title: PropTypes.string.isRequired,
+// };
 
-export default Section;
+export default Header;

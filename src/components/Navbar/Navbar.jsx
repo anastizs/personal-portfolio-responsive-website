@@ -1,23 +1,22 @@
 import PropTypes from "prop-types";
-import { List } from "./Navbar.styled";
+import { List, Item } from "./Navbar.styled";
 
 const Navbar = () => {
-    return (
-        <><List>
-            <li>Home</li>
-            <li>About</li>
-            <li>Service</li>
-        </List>
-        <logo><a href='./'></a>Anastasiia Gvardiian</logo>
-         <List>
-                <li>Resume</li>
-                <li>Project</li>
-                <li>Contact Us</li>
-        </List></>
-        
-    );
+  return (
+    <>
+      <List>
+        <Item>Home</Item>
+        <Item>About</Item>
+        <Item>Service</Item>
+      </List>
+      <a href="./">Anastasiia Gvardiian</a>
+      <List>
+        <Item>Resume</Item>
+        <Item>Project</Item>
+        <Item>Contact Us</Item>
+      </List>
+    </>
+  );
 };
-
-
 
 export default Navbar;

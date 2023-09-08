@@ -4,10 +4,9 @@ import PropTypes from "prop-types";
 const Hero = () => {
   return (
     <>
-      <h1>I’m Jenny, Product Designer</h1>
+      <h1>I’m Anastasiia, FrontEnd Developer</h1>
       <h4>
-        Jenny's exceptional product design ensured our website's success. Highly
-        recommended!
+        Anastasiia's exceptional product design ensured our website's success. Highly recommended!
       </h4>
       <h4>450+</h4>
       <h4>Client Served</h4>
