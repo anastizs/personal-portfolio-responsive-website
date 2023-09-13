@@ -1,5 +1,5 @@
 // import PropTypes from "prop-types";
-import { List, Item } from "./Navbar.styled";
+import { List, Item, Logo, LogoLink } from "./Navbar.styled";
 
 const Navbar = () => {
   return (
@@ -9,7 +9,8 @@ const Navbar = () => {
         <Item>About</Item>
         <Item>Service</Item>
       </List>
-      <a href="./">Anastasiia Gvardiian</a>
+      <LogoLink>A</LogoLink>
+      <Logo href="./">Anastasiia Gvardiian</Logo>
       <List>
         <Item>Resume</Item>
         <Item>Project</Item>
