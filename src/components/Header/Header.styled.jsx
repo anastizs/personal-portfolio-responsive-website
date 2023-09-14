@@ -10,7 +10,7 @@ export const Section = styled.div`
   padding-left: 84px;
   padding-right: 84px;
   display: flex;
-  height: 40px;
+  height: 85px;
   color: #ffffff;
   background-color: #0a0a0a;
   flex-wrap: nowrap;

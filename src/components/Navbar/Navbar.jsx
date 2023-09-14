@@ -9,12 +9,19 @@ const Navbar = () => {
         <Item>About</Item>
         <Item>Service</Item>
       </List>
-      <LogoLink>A</LogoLink>
-      <Logo href="./">Anastasiia Gvardiian</Logo>
+      <List>
+        <Item>
+          <LogoLink>A</LogoLink>
+        </Item>
+        <Item>
+          <Logo href="./">Anastasiia</Logo>
+        </Item>
+      </List>
+
       <List>
         <Item>Resume</Item>
         <Item>Project</Item>
-        <Item>Contact Us</Item>
+        <Item>Contact</Item>
       </List>
     </>
   );

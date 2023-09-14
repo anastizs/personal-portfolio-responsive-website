@@ -1,22 +1,29 @@
-import PropTypes from "prop-types";
-// import { List } from "./Navbar.styled";
+// import PropTypes from "prop-types";
+import { Сaption, Span, Quote, QuoteTitle, Backgraund, ButtonList, ButtonItem1, ButtonItem2 } from "./Hero.styled";
 
 const Hero = () => {
   return (
     <>
-      <h1>I’m Anastasiia, FrontEnd Developer</h1>
-      <h4>
-        Anastasiia's exceptional product design ensured our website's success. Highly recommended!
-      </h4>
-      <h4>450+</h4>
-      <h4>Client Served</h4>
-      <h4>10 Years</h4>
-      <h4>Experts</h4>
-      <img></img>
-      <div>
-        <button>Portfolio</button>
-        <button>Hire Me</button>
-      </div>
+      <Сaption>
+        I’m <Span>Anastasiia</Span>, FrontEnd Developer
+      </Сaption>
+      <Quote>
+        Anastasiia's exceptional product design ensured our website's success.
+        Highly recommended!
+      </Quote>
+      <QuoteTitle>450+</QuoteTitle>
+      <Quote>Client Served</Quote>
+      <QuoteTitle>10 Years</QuoteTitle>
+      <Quote>Experts</Quote>
+      <Backgraund><ButtonList>
+        <li>
+          <ButtonItem1>Portfolio</ButtonItem1>
+        </li>
+        <li>
+          <ButtonItem2>Hire Me</ButtonItem2>
+        </li>
+      </ButtonList></Backgraund>
+      
     </>
   );
 };
